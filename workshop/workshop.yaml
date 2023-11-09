@@ -12,6 +12,7 @@ modules:
   - 200-ops/day2/3-autoscaling
   - 200-ops/day2/4-labels
   - 200-ops/day2/5-observability
+  - 200-ops/day2/6-observability
   - 300-app/1-app-deploy
   - 300-app/2-app-gitops
   - 300-app/3-app-networkpolicy

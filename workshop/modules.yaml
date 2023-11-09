@@ -32,6 +32,9 @@ modules:
   200-ops/day2/5-observability:
     name: Forward Metrics and Logs to Azure Files
     exit_sign: Continue
+  200-ops/day2/6-observability:
+    name: Forward Metrics and Logs to Azure Monitor
+    exit_sign: Continue    
   300-app/1-app-deploy:
     name: Deploy a Quarkus based Java Application
     exit_sign: Continue
@@ -43,7 +46,7 @@ modules:
     exit_sign: Continue
   300-app/2-app-gitops:
     name: Using OpenShift GitOps for Configuration Consistency
-    exit_sign: Continue
+    exit_sign: Exit
   500-service-mesh/1-service-mesh-introduction:
     name: Introduction to OpenShift Service Mesh
     exit_sign: Continue
